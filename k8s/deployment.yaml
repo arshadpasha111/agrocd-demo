@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: agrocd-demo
-        image: <your-dockerhub-username>/agrocd-demo:latest
+        image: docker push arshadpasha111/agrocd-demo:tagname
         ports:
         - containerPort: 3000
 
